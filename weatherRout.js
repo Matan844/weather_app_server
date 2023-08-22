@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const axios = require("axios");
 
-// Define your API routes here
 router.get("/data", async (req, res) => {
   try {
     const { city } = req.query;
